@@ -61,6 +61,9 @@ playQ.textContent = message;
 function newCard(){
     if(isAlive==true && hasBlackjack==false){
     let nCard = Math.floor(Math.random()*13)+1;
+    if(nCard > 11){
+        nCard = 10;
+    }
     sum += nCard;
     cardArr.push(nCard);
     renderGame();
