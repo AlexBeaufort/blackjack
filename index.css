@@ -1,0 +1,44 @@
+*{
+    --textcolor: rgb(248, 246, 241)
+}
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--textcolor);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight:bold
+   
+}
+
+h1{
+    font-size: 3em;
+    color: goldenrod
+}
+.button{
+    background-color:goldenrod;
+    border-radius: 5px;
+    padding: .1em 1em;
+    font-size: 1.5em;
+    color: rgb(1, 99, 1);
+    border: none;
+    font-weight: bold;
+    width: 10em;
+
+}
+.button:hover{
+    cursor:pointer;
+}
+.button:active{
+    background-color:rgb(197, 149, 29);
+}
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
