@@ -75,5 +75,6 @@ function test(){
         playerInfo.chips -= 10;
         playerDis.textContent = playerInfo.name + ": $"+ playerInfo.chips;
     }
+    isAlive=false;
  }
 }
