@@ -23,6 +23,12 @@ function start(){
     hasBlackjack = false
     firstCard = Math.floor(Math.random()*13)+1;
     secondCard = Math.floor(Math.random()*13)+1;
+    if(firstCard > 11){
+        firstCard = 10;
+    }
+    if(secondCard > 11){
+        secondCard = 10;
+    }
     cardArr = [firstCard,secondCard];
     sum = firstCard + secondCard;
 
